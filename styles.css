@@ -37,8 +37,5 @@ p {
 }
 footer {
    position: fixed;
-   bottom: 10;
-}
-#update {
-  right: 10px;
+   bottom: 0;
 }
