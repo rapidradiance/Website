@@ -34,3 +34,7 @@ p {
   right: 10px;
   text-align: right;
 }
+#footer {
+   position: fixed;
+   bottom: 0;
+}
