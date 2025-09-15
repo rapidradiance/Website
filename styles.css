@@ -89,6 +89,29 @@ p {
   background-color: #55cfff;
 }
 
+.links {
+  position: fixed;
+  top: 190px;
+  right: 5px;
+  text-align: right;
+  width: 1.5in;
+  background-color: gray;
+}
+.links a {
+  padding-right: 5px;
+  border-right: 2px solid #55cfff;
+}
+.links a:hover {
+  padding-right: 5px;
+  border-right: 2px solid lightblue;
+}
+
+.links h4 {
+  margin-bottom: -12px;
+  text-align: center;
+  margin-top: -22px;
+  background-color: #55cfff;
+}
 
 footer {
    position: fixed;
