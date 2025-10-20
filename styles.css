@@ -5,78 +5,84 @@ html {
   background: linear-gradient(to bottom, #6b6b6b 0%, #000000 100%) no-repeat;
   min-height: 100%;
 }
+
+body {
+  display: flex;
+}
+
 .center {
   width: 50%;
-  margin: auto;
+  margin: 0 auto auto auto;
   text-align: center;
 }
+
 .center2 {
-  width: 80%;
+  width: 75vw;
   margin: auto;
   text-align: center;
   border: 2px solid rgba(255, 255, 255, 0.3);
-  padding: 7px;  
+  padding: 7px;
   border-bottom: none;
+  transform: translateX(-15%);
 }
+
 .right {
-float: right;
+  float: right;
 }
+
 .left {
-float: left;
-position: absolute;
-top: 5px;
-left: 5px;
-border: 2px solid gray;
-padding: 5px;
+  float: left;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  border: 2px solid gray;
+  padding: 5px;
 }
+
 h1 {
   color: #000000;
   text-decoration: underline;
 }
-h2 {
+
+h2, h3, h4, li, p {
   color: #ffffff;
 }
-h3 {
-  color: #ffffff;
-}
-h4 {
-  color: #ffffff;
-}
+
 a {
   color: #55cfff;
 }
+
 a:hover {
   color: lightblue;
 }
+
 #bugreport {
   color: #ae4c55;
 }
+
 #bugreport:hover {
   color: darkred;
 }
-li {
-  color: #ffffff;
-}
-p {
-  color: #ffffff;
-}
+
 #title {
   color: rgba(255, 255, 255, 0.3);
   text-shadow: 0 0 15px rgba(255, 255, 255, 0.5),
     0 0 10px rgba(255, 255, 255, 0.5);
 }
+
 .pages {
-  position: fixed;
+  position: relative;
   top: 27px;
-  right: 5px;
   text-align: right;
   width: 1.5in;
   background-color: gray;
 }
+
 .pages a {
   padding-right: 5px;
   border-right: 2px solid #55cfff;
 }
+
 .pages a:hover {
   padding-right: 5px;
   border-right: 2px solid lightblue;
@@ -90,17 +96,18 @@ p {
 }
 
 .links {
-  position: fixed;
-  top: 190px;
-  right: 5px;
+  position: relative;
+  top: 40px;
   text-align: right;
   width: 1.5in;
   background-color: gray;
 }
+
 .links a {
   padding-right: 5px;
   border-right: 2px solid #55cfff;
 }
+
 .links a:hover {
   padding-right: 5px;
   border-right: 2px solid lightblue;
@@ -114,16 +121,14 @@ p {
 }
 
 footer {
-   position: fixed;
-   bottom: 5px;
+  position: fixed;
+  bottom: 5px;
 }
+
 footer h4 {
   margin-bottom: -22px;
   margin-left: 2.5in;
 }
-
-
-
 
 div.gallery img {
   width: 100%;
