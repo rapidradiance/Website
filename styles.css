@@ -17,12 +17,13 @@ body {
 }
 
 .center2 {
-  width: 80%;
+  width: 80vw;
   margin: auto;
   text-align: center;
   border: 2px solid rgba(255, 255, 255, 0.3);
   padding: 7px;
   border-bottom: none;
+  transform: translateX(-15%);
 }
 
 .right {
