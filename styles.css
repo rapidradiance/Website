@@ -1,8 +1,11 @@
 html {
-  background: #000000;
-  background: -moz-linear-gradient(top, #6b6b6b 0%, #000000 100%) no-repeat;
-  background: -webkit-linear-gradient(top, #6b6b6b 0%, #000000 100%) no-repeat;
-  background: linear-gradient(to bottom, #6b6b6b 0%, #000000 100%) no-repeat;
+  //background: #000000;
+  //background: url("Content/pic7.png");
+  background: #000000 url("Content/newback.png");
+  background-size: cover;
+  //background: -moz-linear-gradient(top, #6b6b6b 0%, #000000 100%) no-repeat;
+  //background: -webkit-linear-gradient(top, #6b6b6b 0%, #000000 100%) no-repeat;
+  //background: linear-gradient(to bottom, #6b6b6b 0%, #000000 100%) no-repeat;
   min-height: 100%;
 }
 
@@ -69,17 +72,50 @@ a:hover {
   text-shadow: 0 0 15px rgba(255, 255, 255, 0.5),
     0 0 10px rgba(255, 255, 255, 0.5);
 }
+#sidebartitle {
+color: rgba(79, 202, 255, 0.8);
+text-shadow: 0 0 15px rgba(79, 202, 255, 0.7),
+0 0 10px rgba(79, 202, 255, 0.7);
+}
+
+.sidebar-left div {
+  border: 3px solid #55cfff;
+  background-color: gray;
+}
+.sidebar-left {
+  position: absolute;
+  left: 7px;
+}
+
+.sidebar {
+  position: fixed;
+  right: 15px;
+}
+
+.sidebar ul{
+  padding-bottom: 3px;
+}
+
+#main {
+  //border: 3px solid white;
+  //background-color: gray;
+  padding-bottom: 20%;
+  padding-right: 20px;
+  padding-left: 20px;
+}
 
 .pages {
   position: relative;
   top: 27px;
   text-align: right;
+  text-wrap: nowrap;
   width: 1.5in;
   background-color: gray;
 }
 
 .pages a {
   padding-right: 5px;
+  margin-left: -15px;
   border-right: 2px solid #55cfff;
 }
 
@@ -97,7 +133,7 @@ a:hover {
 
 .links {
   position: relative;
-  top: 40px;
+  top: 27px;
   text-align: right;
   width: 1.5in;
   background-color: gray;
@@ -105,6 +141,8 @@ a:hover {
 
 .links a {
   padding-right: 5px;
+  margin-left: -15px;
+  text-wrap: nowrap;
   border-right: 2px solid #55cfff;
 }
 
@@ -122,12 +160,24 @@ a:hover {
 
 footer {
   position: fixed;
-  bottom: 5px;
+  bottom: 0px;
+  width: 100%;
+  left: 0px;
+  text-align: center;
 }
 
-footer h4 {
-  margin-bottom: -22px;
-  margin-left: 2.5in;
+footer p {
+  display: inline;
+  text-color: #ffffff;
+}
+
+footer a {
+  display: none;
+}
+
+footer div {
+  padding: 3px;
+  //background-color: black;
 }
 
 div.gallery img {
@@ -167,4 +217,12 @@ div.desc {
   content: "";
   display: table;
   clear: both;
+}
+
+#copyright::before {
+  content: " © 2026 Rapid Radiance";
+}
+
+#update::after {
+  content: "9/16/2026";
 }
