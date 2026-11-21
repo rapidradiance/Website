@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  display: flex;
+  display: grid;
 }
 
 .center {
@@ -97,9 +97,9 @@ text-shadow: 0 0 15px rgba(79, 202, 255, 0.7),
 }
 
 #main {
-  //border: 3px solid white;
-  //background-color: gray;
-  padding-bottom: 20%;
+  border: 3px solid white;
+  background-color: rgba(200,200,200,0.3);
+  padding-bottom: 20px;
   padding-right: 20px;
   padding-left: 20px;
 }
@@ -163,7 +163,7 @@ footer {
   bottom: 0px;
   width: 100%;
   left: 0px;
-  text-align: center;
+  text-align: right;
 }
 
 footer p {
@@ -195,9 +195,10 @@ div.desc {
 }
 
 .responsive {
-  padding: 0 6px;
+  padding: 0 0px;
   float: left;
   width: 24.99999%;
+  min-height: 215px;
 }
 
 @media only screen and (max-width: 700px) {
