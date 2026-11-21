@@ -59,6 +59,46 @@ a:hover {
   color: lightblue;
 }
 
+#main #buttondiv {
+position: absolute;
+bottom: 10px;
+left: 4px;
+}
+
+#button {
+    border: 3px solid #ffffff;
+    background-color: #e3e3e3;
+    padding: 3px;
+    color: black;
+    text-decoration: none;
+}
+
+.sidebar-left #button {
+  border: 3px solid #ffffff;
+  background-color: #e3e3e3;
+  padding: 0px;
+  padding-left:50px;
+  padding-right: 50px;
+  color: black;
+  text-align: center;
+}
+
+.sidebar-left #buttondiv {
+  display: flex;
+  justify-content: center;
+  margin-bottom:5px;
+}
+
+#button:hover {
+color:white;
+border: 3px solid #e3e3e3;
+background-color: #b0b0b0;
+}
+
+
+
+
+
 #bugreport {
   color: #ae4c55;
 }
@@ -78,10 +118,6 @@ text-shadow: 0 0 15px rgba(79, 202, 255, 0.7),
 0 0 10px rgba(79, 202, 255, 0.7);
 }
 
-.sidebar-left div {
-  border: 3px solid #55cfff;
-  background-color: gray;
-}
 .sidebar-left {
   position: absolute;
   left: 7px;
