@@ -86,7 +86,8 @@ left: 4px;
 .sidebar-left #buttondiv {
   display: flex;
   justify-content: center;
-  margin-bottom:5px;
+  margin-bottom:10px;
+  margin-top:25px;
 }
 
 #button:hover {
@@ -121,6 +122,11 @@ text-shadow: 0 0 15px rgba(79, 202, 255, 0.7),
 .sidebar-left {
   position: absolute;
   left: 7px;
+}
+
+.sidebar-left p{
+   max-width:305px;
+   padding-left:5px;
 }
 
 .sidebar {
