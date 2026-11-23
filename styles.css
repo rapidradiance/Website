@@ -255,6 +255,18 @@ div.desc {
 }
 
 
+.topbar *{
+  display: inline;
+}
+.topbar {
+  background-color: gray;
+  margin: 0px 0px 10px 0px;
+  padding: 5px;
+  border: 3px solid white;
+  display: none;
+}
+
+
 
 @media only screen and (max-width: 700px) {
   .responsive {
@@ -273,14 +285,13 @@ div.desc {
 }
 @media only screen and (max-width: 700px) {
   #logo-o { display: none;}
-
-}
-
-
-@media only screen and (max-width: 800px) {
   #flexbox {
   width: 50%;
   }
+}
+
+@media only screen and (max-width: 800px) {
+
   #main {
     padding: 2px;
   }
@@ -291,12 +302,14 @@ div.desc {
 }
 
 @media only screen and (max-width: 1200px) {
-  .sidebar-left {
+  .sidebar-left,
+  .sidebar {
     display: none;
   }
+  .topbar {display: unset; }
   .center {
     margin-left: 0px !important;
-    width: 70% !important;
+    width: 100% !important;
   }
 
   #logo-4 { display: none;}
