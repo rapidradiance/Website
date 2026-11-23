@@ -19,6 +19,12 @@ body {
   text-align: center;
 }
 
+.center3 {
+  width: 50%;
+  margin: 0 auto auto auto;
+  text-align: center;
+}
+
 .list * {
   display: list-item;
   color: #d9d9d9;
@@ -244,6 +250,12 @@ div.desc {
   min-height: 215px;
 }
 
+#flexbox {
+  width: 33%;
+}
+
+
+
 @media only screen and (max-width: 700px) {
   .responsive {
     width: 49.99999%;
@@ -255,6 +267,55 @@ div.desc {
   .responsive {
     width: 100%;
   }
+}
+
+@media only screen and (max-width: 700px) {
+  #logo-o { display: none;}
+
+}
+
+
+@media only screen and (max-width: 800px) {
+  #flexbox {
+  width: 50%;
+  }
+  #main {
+    padding: 2px;
+  }
+  .center3 {
+    width: 50%;
+    margin-left: 90px !important;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .sidebar-left {
+    display: none;
+  }
+  .center {
+    margin-left: 0px !important;
+    width: 70% !important;
+  }
+
+  #logo-4 { display: none;}
+}
+
+
+@media only screen and (max-width: 1600px) {
+  #logo-3 { display: none;}
+}
+
+@media only screen and (max-width: 1500px) {
+  .center {
+    margin: 0 200px auto auto;
+    width: 60%;
+  }
+
+  .center3 {
+    width: 50%;
+    margin: 0 auto auto 150px;
+  }
+
 }
 
 .clearfix:after {
