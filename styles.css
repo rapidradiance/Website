@@ -72,8 +72,11 @@ a:hover {
 
 #main #buttondiv {
 position: absolute;
-bottom: 10px;
-left: 4px;
+bottom:3px;
+//left: 4px;
+min-width:100%;
+line-height: 2.5;
+justify-content: center;
 }
 
 #button {
