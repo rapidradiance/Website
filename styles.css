@@ -268,7 +268,9 @@ div.desc {
     width: 100%;
   }
 }
+/*
 
+}
 @media only screen and (max-width: 700px) {
   #logo-o { display: none;}
 
@@ -317,7 +319,7 @@ div.desc {
   }
 
 }
-
+*/
 .clearfix:after {
   content: "";
   display: table;
