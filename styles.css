@@ -23,6 +23,12 @@ body {
   text-align: center;
 }
 
+.fullcenter {
+  width: 100%;
+  margin: 10% auto auto auto;
+  text-align: center;
+}
+
 .center3 {
   width: 50%;
   margin: 0 30% auto auto;
@@ -122,6 +128,12 @@ background-color: #b0b0b0;
   color: rgba(255, 255, 255, 0.3);
   text-shadow: 0 0 15px rgba(255, 255, 255, 0.5),
     0 0 10px rgba(255, 255, 255, 0.5);
+}
+#error {
+color: #ff0000;
+font-size: 40px;
+font-weight: bold;
+letter-spacing: 0.17em;
 }
 #sidebartitle {
 color: rgba(79, 202, 255, 0.8);
